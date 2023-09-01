@@ -1,9 +1,9 @@
 module.exports = {
-  HOST: "Servidor",
+  HOST: "sqlserver-rm9999.database.windows.net",
   PORT: "1433",
-  USER: "Usuario",
-  PASSWORD: "Senha",
-  DB: "Banco",
+  USER: "admsql",
+  PASSWORD: "NodeAPI@2tds",
+  DB: "dbnode",
   dialect: "mssql",
   pool: {
     max: 5,
